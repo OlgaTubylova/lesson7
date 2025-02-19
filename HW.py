@@ -68,7 +68,6 @@ def batch_rename_files(
 if __name__ == '__main__':
     folder_name = '/Users/olgatubylova/Documents/CS/Python/DataEngineer/Seminar/lesson_7'
     
-    # Запускаем переименование
     batch_rename_files(
         directory=folder_name,
         desired_name="new_name",
